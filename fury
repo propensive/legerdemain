@@ -11,9 +11,10 @@ repo propensive/vacuous
 repo propensive/honeycomb
 repo propensive/telekinesis
 repo propensive/denominative
+repo propensive/vicarious
 
 project necromancy
   module core
     compiler  scala
     sources   src/core
-    include   honeycomb/core nettlesome/core telekinesis/core
+    include   honeycomb/core nettlesome/core telekinesis/core vicarious/core
