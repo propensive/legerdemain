@@ -1,12 +1,12 @@
 package necromancy
 
-import wisteria.*
 import anticipation.*
-import rudiments.*
 import gossamer.*
+import prepositional.*
+import rudiments.*
 import spectacular.*
 import vacuous.*
-import prepositional.*
+import wisteria.*
 
 object Askable extends ProductDerivable[Askable]:
   inline def join[DerivationType <: Product: ProductReflection]: DerivationType is Askable =
