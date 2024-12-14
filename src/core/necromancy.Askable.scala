@@ -13,7 +13,8 @@ object Askable extends ProductDerivable[Askable]:
     def ask(value: DerivationType, prefix: Optional[Text]): Map[Optional[Text], Text] =
       fields(value):
         [FieldType] => field => context.ask(field, prefix.lay(label)(_+t".$label"))
-      .foldLeft(Map[Optional[Text], Text]())(_ ++ _)
+
+      . foldLeft(Map[Optional[Text], Text]())(_ ++ _)
 
     def answer(answers: Map[Optional[Text], Text], prefix: Optional[Text]): DerivationType =
       construct:
