@@ -1,4 +1,4 @@
-package necromancy
+package legerdemain
 
 import anticipation.*
 import gossamer.*

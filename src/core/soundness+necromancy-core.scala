@@ -1,3 +1,3 @@
 package soundness
 
-export necromancy.{ask, Askable, Inquiry}
+export legerdemain.{ask, Askable, Inquiry}
